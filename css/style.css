@@ -130,8 +130,8 @@ header::before {
 
 /* About Me Section Start */
 
-#about_me, #skill_sec {
-    padding: 120px 60px;
+#about_me, #skill_sec{
+    padding: 120px 0px 0px;
 }
 
 .about_content_wrapper {
@@ -192,6 +192,10 @@ header::before {
     cursor: pointer;
 }
 
+.card:hover{
+    transform: scale(1.1);
+}
+
 .card-body {
     padding-left: 0;
     margin-top: 20px;
@@ -205,3 +209,117 @@ header::before {
 }
 
 /* Skills Section End */
+
+
+
+/* Education & Experience Section Start */
+
+#edu_exp {
+    padding: 120px 30px;
+}
+
+.edu_title {
+    color: var(--gray-one);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.edu_box h4 {
+    font-size: 1.5rem;
+    color: var(--gray-one);
+    font-weight: 700;
+}
+
+.edu_box h5 {
+    font-size: 1rem;
+    color: #757575;
+    font-weight: 700;
+}
+
+.edu_box p {
+    font-size: 0.9rem;
+    color: var(--gray-second);
+    font-weight: 600;
+}
+
+.edu_box {
+    border-bottom: 1px solid var(--gray-second);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.edu_exp_wrapper {
+    margin-top: 90px;
+}
+
+/* Education & Experience Section End */
+
+
+
+/* Footer Start */
+
+#footer{
+    background-color: var(--bg-color);
+    padding: 120px 0px 50px;
+}
+
+.cont_info p {
+    color: var(--gray-second);
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.social_links a {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 50%;
+    transition: all 0.3s;
+    border: 1px solid var(--primary-color);
+}
+
+.social_links {
+    display: flex;
+    align-items: center;
+}
+
+.social_links a i {
+    font-size: 22px;
+}
+
+.social_links a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], textarea::placeholder {
+    font-size: 14px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding-left: 10px;
+    height: 45px;
+    border: none;
+    color: var(--gray-one);
+    outline: none;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.messege_box form textarea {
+    height: 200px !important;
+    padding-top: 10px;
+}
+
+input[type="submit"] {
+    width: 100px;height: 40px;
+}
+
+/* Footer End */
