@@ -23,8 +23,21 @@ body{
     background-color: #fff8f3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-position: bottom right;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 11px;
 }
 
 .nav_ul ul li a{
@@ -38,12 +51,21 @@ body{
 .main_btn{
     background-color: var(--primary-color);
     border:1px solid var(--primary-color);
+    transition: all 0.3s;
 }
 
 .main_btn a{
     color: #fff;
     text-decoration: none;
     font-size: 16px !important;
+}
+
+.main_btn:hover{
+    background-color: #fff;
+}
+
+.main_btn:hover a{
+    color: var(--primary-color);
 }
 
 .logo h1{
@@ -57,6 +79,11 @@ body{
 
 
 /* Head Section */
+
+.head_section {
+    z-index: 2;
+    position: relative;
+}
 
 .head_sec_txt h3{
     color: var(--gray-one);
@@ -77,10 +104,32 @@ body{
 
 .main_btn_2 {
     background-color: #fff;
+    margin-left: 10px;
+    padding: 10px 20px;
 }
 
 .main_btn_2 a {
     color: var(--primary-color);
+    
 }
 
+.main_btn_3 {
+    padding: 10px;
+}
+
+.main_btn_2:hover{
+    background-color: var(--primary-color);
+}
+
+.main_btn_2:hover a{
+    color: #fff;
+}
 /* Header End */
+
+
+
+/* About Me Section Start */
+
+
+
+/* About Me Section End */
