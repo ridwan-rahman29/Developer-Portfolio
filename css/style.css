@@ -130,6 +130,78 @@ header::before {
 
 /* About Me Section Start */
 
+#about_me, #skill_sec {
+    padding: 120px 60px;
+}
 
+.about_content_wrapper {
+    background-color: var(--bg-color);
+    padding: 70px 110px;
+}
+
+.about_txt {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.about_txt h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about_txt p{
+    font-size: 14px;
+    color: var(--gray-second);
+    font-weight: 500;
+}
+
+.about_stats p {
+    color: var(--gray-second);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about_stats h5 {
+    font-size: 1rem;
+    color: #494949;
+    font-weight: 700;
+}
 
 /* About Me Section End */
+
+
+
+/* Skills Section Start */
+
+.sec_title p {
+    padding: 0px 160px;
+    font-size: 0.95rem;
+    color: var(--gray-second);
+}
+
+.skill_box_wrapper .card img {
+    width: 60px;
+    height: 60px;
+}
+
+.card{
+    padding: 30px 30px 10px;
+    border: none;
+    box-shadow: 0px 0px 6px 0px #a19c9c;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.card-body {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: var(--gray-second);
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+/* Skills Section End */
