@@ -1,0 +1,58 @@
+/* Main CSS */
+
+:root{
+    --bg-color:#fff8f3;
+    --primary-color:#fd6e0a;
+    --default-color:#181818;
+    --gray-one:#9d9b99;
+    --gray-second:#474747;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightcyan;
+}
+
+/* Header Start */
+
+/* Navbar */
+
+#header{
+    background-color: #fff8f3;
+    height: 100vh;
+}
+
+.nav_ul ul li a{
+    font-size: 13px;
+}
+
+.nav_ul ul li:last-child{
+    padding-left: 10px;
+}
+
+.main_btn{
+    background-color: var(--primary-color);
+    border:1px solid var(--primary-color);
+}
+
+.main_btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px !important;
+}
+
+.logo h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo h1 .uniq_colr{
+    color: var(--primary-color);
+}
+
+/* Head Section */
+
+
+
+/* Header End */
