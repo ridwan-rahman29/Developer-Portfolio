@@ -499,6 +499,28 @@ input[type="text"], input[type="email"], textarea {
         margin-top: 10px !important;
     }
 
+    .navbar {
+        position: relative;
+    }
+
+    .nav_ul ul li:last-child {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0.d-flex.align-items-center {
+        display: block !important;
+        position: absolute;
+        left: -70px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 15px;
+        top: 53px;
+        border-radius: 5px;
+    }
+
+    .nav_ul ul li:last-child button {
+        white-space: nowrap;
+    }
 }
 
 
