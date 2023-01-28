@@ -2,7 +2,7 @@
 
 :root{
     --bg-color:#fff8f3;
-    --primary-color:#fd6e0a;
+    --primary-color:#239bf1;
     --default-color:#181818;
     --gray-one:#474747;
     --gray-second:#9d9b99;
@@ -19,8 +19,8 @@ body{
 /* Navbar */
 
 #header{
-    background-color: #fff8f3;
-    background-image: url(../images/header_bg.png);
+    background-color: var(--bg-color);
+    background-image: url(../images/header_bg-2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     position: relative;
